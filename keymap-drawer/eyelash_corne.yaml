@@ -79,19 +79,19 @@ layers:
   - HOME
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - RGB EFF
+  - RGB EFR
+  - RGB HUI
+  - RGB HUD
   - $$mdi:volume-off$$
   - $$mdi:arrow-down-bold$$
-  - RGB EFR
-  - RGB SPI
+  - RGB SAI
+  - RGB SAD
   - RGB BRI
   - RGB BRD
-  - END
-  - PG DN
+  - RGB SPI
+  - RGB SPD
   - $$mdi:apple-keyboard-caps$$
   - LEFT WIN
   - {type: held}
