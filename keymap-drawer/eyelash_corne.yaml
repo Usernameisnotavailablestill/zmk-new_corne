@@ -177,7 +177,7 @@ layers:
   - PRINTSCREEN
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&bl BL_TOG'
+  - RGB TOG
   - RGB EFR
   - RGB HUD
   - RGB SAD
