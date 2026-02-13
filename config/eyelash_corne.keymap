@@ -60,9 +60,14 @@
             key-positions = <1 15 29>;
         };
 
-        Layer3 {
+        Layer3L {
             bindings = <&mo 3>;
             key-positions = <43 44>;
+        };
+
+        Layer3R {
+            bindings = <&mo 3>;
+            key-positions = <45 46>;
         };
     };
 
