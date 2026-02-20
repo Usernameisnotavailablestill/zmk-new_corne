@@ -15,7 +15,7 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-caps$$'}
-  - {t: A, h: '$$mdi:keyboard-tab$$'}
+  - A
   - S
   - D
   - F
