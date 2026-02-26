@@ -103,7 +103,7 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR        &kp PRCNT                                   &mmv MOVE_UP                     &kp CARET          &kp AMPS         &kp ASTRK        &kp LPAR  &kp RPAR       &kp PLUS
-&trans  &kp ESCAPE    &kp LCTRL     &kp LEFT_WIN  &kp LALT        &kp DEL                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans             &kp PAGE_DOWN    &kp PAGE_UP      &trans    &trans         &trans
+&trans  &kp ESCAPE    &kp LCTRL     &kp LEFT_WIN  &kp BACKSPACE   &kp DEL                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans             &kp PAGE_DOWN    &kp PAGE_UP      &trans    &trans         &trans
 &trans  &out OUT_USB  &out OUT_BLE  &kp CAPS      &kp LEFT_BRACE  &kp LEFT_BRACKET  &trans                    &mmv MOVE_DOWN                   &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans           &trans    &kp BACKSLASH  &kp UNDER
                                     &kp CAPS      &kp LEFT_GUI    &kp SPACE                                                                    &kp RET            &trans           &kp LA(LC(DEL))
             >;
