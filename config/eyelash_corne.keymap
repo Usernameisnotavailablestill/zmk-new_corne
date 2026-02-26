@@ -103,7 +103,7 @@
             bindings = <
 &trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR        &kp PRCNT                                   &mmv MOVE_UP                     &kp CARET          &kp AMPS         &kp ASTRK        &kp LPAR  &kp RPAR       &kp PLUS
 &trans  &kp ESCAPE    &kp LCTRL     &kp LEFT_WIN  &kp LALT        &kp DEL                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans             &kp PAGE_DOWN    &kp PAGE_UP      &trans    &trans         &trans
-&trans  &out OUT_USB  &out OUT_BLE  &kp CAPS      &kp LEFT_BRACE  &kp LEFT_BRACKET  &trans                    &mmv MOVE_DOWN                   &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans           &trans    &kp BACKSLASH  &kp PIPE
+&trans  &out OUT_USB  &out OUT_BLE  &kp CAPS      &kp LEFT_BRACE  &kp LEFT_BRACKET  &trans                    &mmv MOVE_DOWN                   &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans           &trans    &kp BACKSLASH  &kp UNDER
                                     &kp CAPS      &kp LEFT_GUI    &kp SPACE                                                                    &kp RET            &trans           &kp LA(LC(DEL))
             >;
 
@@ -115,7 +115,7 @@
             bindings = <
 &studio_unlock  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5                                         &mmv MOVE_UP                     &kp F6      &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
 &trans          &kp TILDE        &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bl BL_INC  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &kp C_MUTE                    &mmv MOVE_DOWN                   &bl BL_DEC  &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+&trans          &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &kp C_MUTE                    &mmv MOVE_DOWN                   &bl BL_DEC  &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PIPE
                                                   &trans           &trans           &trans                                                                          &trans      &trans     &trans
             >;
 
