@@ -90,10 +90,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1        &kp N2  &kp N3   &kp N4  &kp N5                                &mmv MOVE_UP                     &kp N6     &kp N7    &kp N8     &kp N9     &kp N0         &trans
-&trans  &kp NUMBER_6  &kp N7  &kp N8   &kp N9  &kp N0                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &kp SEMI       &trans
-&trans  &trans        &trans  &kp TAB  &trans  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp EQUAL  &kp PLUS  &kp MINUS  &kp UNDER  &kp BACKSLASH  &trans
-                              &trans   &trans  &trans                                                                 &trans     &trans    &kp DEL
+&trans  &kp N1        &kp N2  &kp N3   &kp N4     &kp N5                                   &mmv MOVE_UP                     &kp N6        &kp N7           &kp N8        &kp N9              &kp N0         &trans
+&trans  &kp NUMBER_6  &kp N7  &kp N8   &kp N9     &kp N0                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT      &kp DOWN         &kp UP        &kp RIGHT           &kp SEMI       &trans
+&trans  &trans        &trans  &kp TAB  &mkp LCLK  &mkp MCLK  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp KP_EQUAL  &kp LS(KP_PLUS)  &kp KP_MINUS  &kp LS(UNDERSCORE)  &kp BACKSLASH  &trans
+                              &trans   &trans     &trans                                                                    &trans        &trans           &kp DEL
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -102,9 +102,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR        &kp PRCNT                                   &mmv MOVE_UP                     &kp CARET          &kp AMPS         &kp ASTRK        &kp LPAR  &kp RPAR      &trans
-&trans  &kp ESCAPE    &kp LCTRL     &kp LEFT_WIN  &kp BACKSPACE   &kp DEL                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans             &kp PAGE_DOWN    &kp PAGE_UP      &trans    &kp LS(SEMI)  &trans
-&trans  &out OUT_USB  &out OUT_BLE  &kp CAPS      &kp LEFT_BRACE  &kp LEFT_BRACKET  &trans                    &mmv MOVE_DOWN                   &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans           &trans    &kp PIPE      &trans
+&trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR        &kp PRCNT                                   &mmv MOVE_UP                     &kp CARET          &kp AMPS         &kp ASTRK        &kp LPAR  &kp RPAR           &trans
+&trans  &kp ESCAPE    &kp LCTRL     &kp LEFT_WIN  &kp BACKSPACE   &kp DEL                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans             &kp PAGE_DOWN    &kp PAGE_UP      &trans    &kp LS(SEMI)       &trans
+&trans  &out OUT_USB  &out OUT_BLE  &kp CAPS      &kp LEFT_BRACE  &kp LEFT_BRACKET  &trans                    &mmv MOVE_DOWN                   &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans           &trans    &kp LS(BACKSLASH)  &trans
                                     &kp CAPS      &kp LEFT_GUI    &kp SPACE                                                                    &kp RET            &trans           &kp LA(LC(DEL))
             >;
 
