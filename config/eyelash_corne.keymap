@@ -78,10 +78,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&none  &mt ESCAPE Q      &kp W  &kp E      &kp R        &mt Y T                              &kp UP                &kp Y        &kp U        &kp I               &kp O    &kp P                &none
-&none  &mt LEFT_SHIFT A  &kp S  &kp D      &kp F        &kp G                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J        &kp K               &kp L    &mt RIGHT_SHIFT SQT  &none
-&none  &mt LCTRL Z       &kp X  &kp C      &kp V        &kp B        &kp C_MUTE              &kp DOWN              &kp N        &kp M        &kp COMMA           &kp DOT  &mt RCTRL FSLH       &none
-                                &kp LCTRL  &lt 1 SPACE  &lt 2 ENTER                                                &lt 1 SPACE  &lt 2 SPACE  &mt RALT BACKSPACE
+&trans  &mt ESCAPE Q      &kp W  &kp E      &kp R        &mt Y T                              &kp UP                &kp Y        &kp U        &kp I               &kp O    &kp P                &trans
+&trans  &mt LEFT_SHIFT A  &kp S  &kp D      &kp F        &kp G                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J        &kp K               &kp L    &mt RIGHT_SHIFT SQT  &trans
+&trans  &mt LCTRL Z       &kp X  &kp C      &kp V        &kp B        &kp C_MUTE              &kp DOWN              &kp N        &kp M        &kp COMMA           &kp DOT  &mt RCTRL FSLH       &trans
+                                 &kp LCTRL  &lt 1 SPACE  &lt 2 ENTER                                                &lt 1 SPACE  &lt 2 SPACE  &mt RALT BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -90,9 +90,9 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1        &kp N2  &kp N3   &kp N4  &kp N5                                &mmv MOVE_UP                     &kp N6     &kp N7    &kp N8     &kp N9     &kp N0         &none
+&trans  &kp N1        &kp N2  &kp N3   &kp N4  &kp N5                                &mmv MOVE_UP                     &kp N6     &kp N7    &kp N8     &kp N9     &kp N0         &trans
 &trans  &kp NUMBER_6  &kp N7  &kp N8   &kp N9  &kp N0                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &kp SEMI       &trans
-&trans  &trans        &trans  &kp TAB  &trans  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp EQUAL  &kp PLUS  &kp MINUS  &kp UNDER  &kp BACKSLASH  &none
+&trans  &trans        &trans  &kp TAB  &trans  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp EQUAL  &kp PLUS  &kp MINUS  &kp UNDER  &kp BACKSLASH  &trans
                               &trans   &trans  &trans                                                                 &trans     &trans    &kp DEL
             >;
 
@@ -102,9 +102,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR        &kp PRCNT                                   &mmv MOVE_UP                     &kp CARET          &kp AMPS         &kp ASTRK        &kp LPAR  &kp RPAR      &none
+&trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR        &kp PRCNT                                   &mmv MOVE_UP                     &kp CARET          &kp AMPS         &kp ASTRK        &kp LPAR  &kp RPAR      &trans
 &trans  &kp ESCAPE    &kp LCTRL     &kp LEFT_WIN  &kp BACKSPACE   &kp DEL                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans             &kp PAGE_DOWN    &kp PAGE_UP      &trans    &kp LS(SEMI)  &trans
-&trans  &out OUT_USB  &out OUT_BLE  &kp CAPS      &kp LEFT_BRACE  &kp LEFT_BRACKET  &trans                    &mmv MOVE_DOWN                   &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans           &trans    &kp PIPE      &none
+&trans  &out OUT_USB  &out OUT_BLE  &kp CAPS      &kp LEFT_BRACE  &kp LEFT_BRACKET  &trans                    &mmv MOVE_DOWN                   &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans           &trans    &kp PIPE      &trans
                                     &kp CAPS      &kp LEFT_GUI    &kp SPACE                                                                    &kp RET            &trans           &kp LA(LC(DEL))
             >;
 
