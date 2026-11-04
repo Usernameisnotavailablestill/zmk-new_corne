@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - {t: Q, h: '$$mdi:keyboard-esc$$'}
+  - Q
   - W
   - E
   - R
@@ -16,8 +16,8 @@ layers:
   - P
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - S
-  - D
-  - F
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
@@ -29,7 +29,7 @@ layers:
   - K
   - L
   - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
-  - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
+  - Z
   - X
   - C
   - V
@@ -42,13 +42,13 @@ layers:
   - M
   - {t: ',', s: <}
   - .
-  - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: /, s: '?'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
+  - {t: '$$mdi:backspace$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   NUMBER:
   - '1'
   - '2'
@@ -82,7 +82,7 @@ layers:
   - KP MINUS
   - KP DIVIDE
   - '"'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -113,7 +113,7 @@ layers:
   - (
   - )
   - $$mdi:keyboard-esc$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
@@ -138,7 +138,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ']', s: '}'}
   - '}'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Sft+-, s: Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
