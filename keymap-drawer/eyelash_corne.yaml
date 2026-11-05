@@ -5,7 +5,7 @@ layers:
   - W
   - E
   - R
-  - {t: T, h: Y}
+  - T
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
