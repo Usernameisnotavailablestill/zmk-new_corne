@@ -14,9 +14,7 @@
     flavor = "balanced";
 };
 
-&lt {
-    tapping-term-ms = <250>;
-};
+&lt { tapping-term-ms = <250>; };
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
@@ -85,10 +83,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp Q             &kp W  &kp E       &kp R        &kp T        &trans                               &kp UP                &trans           &kp Y        &kp U  &kp I      &kp O       &kp P
-&mt LEFT_SHIFT A  &kp S  &mt LALT D  &mt LCTRL F  &kp G        &trans                     &kp LEFT  &kp ENTER  &kp RIGHT  &trans           &kp H        &kp J  &kp K      &kp L       &mt RIGHT_SHIFT SQT
-&kp Z             &kp X  &kp C       &kp V        &kp B        &trans       &kp C_MUTE              &kp DOWN              &trans           &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-                                     &none        &lt 1 SPACE  &lt 2 ENTER                                                &lt 1 BACKSPACE  &lt 2 SPACE  &none
+&kp Q             &kp W           &kp E       &kp R        &kp T        &trans                               &kp UP                &trans           &kp Y        &kp U  &kp I      &kp O       &kp P
+&mt LEFT_SHIFT A  &mt LEFT_GUI S  &mt LALT D  &mt LCTRL F  &kp G        &trans                     &kp LEFT  &kp ENTER  &kp RIGHT  &trans           &kp H        &kp J  &kp K      &kp L       &mt RIGHT_SHIFT SQT
+&kp Z             &kp X           &kp C       &kp V        &kp B        &trans       &kp C_MUTE              &kp DOWN              &trans           &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+                                              &none        &lt 1 SPACE  &lt 2 ENTER                                                &lt 1 BACKSPACE  &lt 2 SPACE  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -109,10 +107,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp EXCL  &kp AT   &kp HASH      &kp DLLR        &kp PRCNT         &trans                            &mmv MOVE_UP                     &trans  &kp CARET          &kp AMPS         &kp ASTRK      &kp LPAR  &kp RPAR
-&kp ESC   &trans   &kp LEFT_GUI  &kp BACKSPACE   &kp DELETE        &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans             &kp PAGE_DOWN    &kp PAGE_UP    &trans    &kp LS(SEMI)
-&trans    &kp TAB  &kp CAPS      &kp LEFT_BRACE  &kp LEFT_BRACKET  &trans  &trans                    &mmv MOVE_DOWN                   &trans  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp LS(MINUS)  &trans    &kp PIPE
-                                 &trans          &trans            &trans                                                             &trans  &trans             &kp LA(LC(DEL))
+&kp EXCL  &kp AT    &kp HASH  &kp DLLR        &kp PRCNT         &trans                            &mmv MOVE_UP                     &trans  &kp CARET          &kp AMPS         &kp ASTRK      &kp LPAR  &kp RPAR
+&kp ESC   &mkp MB1  &mkp MB2  &kp BACKSPACE   &kp DELETE        &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans             &kp PAGE_DOWN    &kp PAGE_UP    &trans    &kp LS(SEMI)
+&mkp MB3  &kp TAB   &kp CAPS  &kp LEFT_BRACE  &kp LEFT_BRACKET  &trans  &trans                    &mmv MOVE_DOWN                   &trans  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp LS(MINUS)  &trans    &kp PIPE
+                              &trans          &trans            &trans                                                             &trans  &trans             &kp LA(LC(DEL))
             >;
 
             sensor-bindings = <&scroll_encoder>;
