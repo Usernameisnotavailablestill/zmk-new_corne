@@ -15,7 +15,7 @@ layers:
   - O
   - P
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - S
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: D, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
@@ -113,8 +113,8 @@ layers:
   - (
   - )
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-command$$
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -127,7 +127,7 @@ layers:
   - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Sft+;, s: 'Sft+:'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB3'
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-caps$$
   - '{'
